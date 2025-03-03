@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+E-commerce Application
 
-## Getting Started
+A simple e-commerce application built using Next.js, TypeScript, and Tailwind CSS, featuring product listings, a shopping cart, and responsive design.
+Features
+Pages:
 
-First, run the development server:
+    Product List: Fetches product data from a mock API.
+    Product Details: Displays detailed information for individual products.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Cart:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Add and remove products to/from the cart.
+    View product information in a modal dialog.
+    Display the total purchase amount.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Responsiveness:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    Fully responsive, optimized for both desktop and mobile.
 
-## Learn More
+Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Next.js: For building the React application.
+    TypeScript: For type safety.
+    Tailwind CSS: For styling.
+    Zustand: For state management.
+    server.js: To mock an API for fetching product data.
